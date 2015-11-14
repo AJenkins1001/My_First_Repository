@@ -52,17 +52,16 @@ HEADER
   
 nav {
   background: none;
-  float: right;
   font-size: 1.125em;
   margin-right: 5%;
-  text-align: right;
+  text-align: center;
   }
   
 #logo {
   float: left;
   margin-left: 5%;
   text-align: left;
-  width: 45%;
+  width: 60%;
   }
     
 h1 {
@@ -71,12 +70,12 @@ h1 {
     
 h2 {
   font-size: 0.825em;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
    }
     
  header {
   border-bottom: 5px solid #599a68;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   }   
   
 }

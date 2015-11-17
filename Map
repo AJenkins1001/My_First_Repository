@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>Grinny Possum Map Code</title>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;
+key=AIzaSyAOCvqBA-HDWy5X3Zf3fUUbkSLJ_4rieS4" type="text/javascript"></script>
+<script type="text/javascript">
+function initialize() {
+if (GBrowserIsCompatible()) {
+var zoomlevel = 13;
+var coordinates = new GLatLng(38.2855528,-85.8214623);
+var map = new GMap2(document.getElementById("map_canvas"));
+map.setCenter(coordinates, zoomlevel);
+map.addControl(new GSmallMapControl());
+map.addControl(new GMapTypeControl());
+
+var marker = new GMarker(coordinates);
+map.addOverlay(marker);
+}
+}
+</script>
+</head>
+
+<body onload="initialize()" onunload="GUnload()">
+<div id="map_canvas" style="width: 440px; height: 300px">
+<img src="http://farm4.static.flickr.com/3426/3254572288_4b054d8e63_o.gif" width="440" height="300" border="0" alt="Montparnasse Restaurant Map, Manhattan, New York, NY" />
+Map of Parnassus, New York City (viewed best with Javascript enabled)</div>
+</body>
+</html>

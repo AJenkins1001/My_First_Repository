@@ -16,11 +16,7 @@ h2 {
 
 }
 
-h3 {
-  font-size: 1.25em;
-  margin: -5px 0 0em;
-  font-weight: normal;
-}
+
 
 /******************************************
 NAVIGATION
@@ -65,7 +61,7 @@ footer {
 
 #pagewrap {
 	padding: 5px;
-	width: 960px;
+	width: 90%;
 	margin: 20px auto;
 }
 header {
@@ -73,22 +69,22 @@ header {
 	padding: 0 15px;
 }
 #content {
-	width: 290px;
+	width: 20%;
 	float: left;
 	padding: 5px 15px;
 }
 
 #middle {
-	width: 294px; /* Account for margins + border values */
+	width: 50%; /* Account for margins + border values */
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 }
 
 #sidebar {
-	width: 270px;
-	padding: 5px 15px;
-	float: left;
+	width: 20%;
+	padding: 5px 10px;
+	float: right;
 }
 footer {
 	clear: both;
@@ -105,11 +101,11 @@ MEDIA QUERIES
 		width: 94%;
 	}
 	#content {
-		width: 41%;
+		width: 35%;
 		padding: 1% 4%;
 	}
 	#middle {
-		width: 41%;
+		width: 50%;
 		padding: 1% 4%;
 		margin: 0px 0px 5px 5px;
 		float: right;
@@ -118,7 +114,7 @@ MEDIA QUERIES
 	#sidebar {
 		clear: both;
 		padding: 1% 4%;
-		width: auto;
+		width: 15%;
 		float: none;
 	}
 

@@ -13,15 +13,6 @@ summary {
     display: block;
 }
 
-audio:not([controls]) {
-    display: none;
-    height: 0;
-}
-
-[hidden] {
-    display: none;
-}
-
 html {
     font-size: 100%; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */

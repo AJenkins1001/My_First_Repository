@@ -8,23 +8,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 
-    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;
-key=AIzaSyAOCvqBA-HDWy5X3Zf3fUUbkSLJ_4rieS4" type="text/javascript"></script>
-<script type="text/javascript">
-function initialize() {
-if (GBrowserIsCompatible()) {
-var zoomlevel = 13;
-var coordinates = new GLatLng(38.2855528,-85.8214623);
-var map = new GMap2(document.getElementById("map_canvas"));
-map.setCenter(coordinates, zoomlevel);
-map.addControl(new GSmallMapControl());
-map.addControl(new GMapTypeControl());
-
-var marker = new GMarker(coordinates);
-map.addOverlay(marker);
-}
-}
-</script>
 </head>
 <body>
   <div id="pagewrap">
@@ -92,11 +75,7 @@ map.addOverlay(marker);
   	  <li>Street & Parking Lot</li>
     </ul>
 
-  <body onload="initialize()" onunload="GUnload()">
-<div id="map_canvas" style="width: 440px; height: 300px">
-</div>
-</body>
-
+   
   </aside>
 
 
